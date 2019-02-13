@@ -6,6 +6,11 @@ TagManager:
   tags:
   - Enemy
   - Background
+  - Invisible
+  - Bottom
+  - Top
+  - Bullet
+  - Ignore
   layers:
   - Default
   - TransparentFX
@@ -15,10 +20,10 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
+  - Player
+  - Bottom
+  - Bullet
+  - Ignore
   - 
   - 
   - 
@@ -57,4 +62,7 @@ TagManager:
     locked: 0
   - name: Enemies
     uniqueID: 2344620695
+    locked: 0
+  - name: Player
+    uniqueID: 4226815833
     locked: 0
