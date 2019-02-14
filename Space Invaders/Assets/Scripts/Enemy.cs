@@ -7,10 +7,17 @@ public class Enemy : MonoBehaviour
 {
     public float speed = 3f;
     private bool facingRight = true;
+    public GameController controller;
+    public static int lives = 55;
 
-    // Update is called once per frame
+    void Start()
+    {
+        lives = 55;
+    }
+
     void Update()
     {
+        Debug.Log("enemies: " + lives);
         if (!facingRight){
             this.transform.Translate(Vector3.left * speed * Time.deltaTime);    // Continuously move left
         }
@@ -31,6 +38,12 @@ public class Enemy : MonoBehaviour
         {
             Debug.Log("enemy reached bottom");
             // if reaches bottom, prompt game over
+            controller.GameOver();
         }
+    }
+
+    public int getLives()
+    {
+        return lives;
     }
 }

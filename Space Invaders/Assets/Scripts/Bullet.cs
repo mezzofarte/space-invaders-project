@@ -14,18 +14,21 @@ public class Bullet : MonoBehaviour
         else if (col.gameObject.tag == "Enemy1"){
             Player.off_screen = true;
             ScoreManager.score += 10;
+            Enemy.lives -= 1;
             Destroy(this.gameObject);
             Destroy(col.gameObject);
         }
         else if (col.gameObject.tag == "Enemy2"){
             Player.off_screen = true;
             ScoreManager.score += 20;
+            Enemy.lives -= 1;
             Destroy(this.gameObject);
             Destroy(col.gameObject);
         }
         else if (col.gameObject.tag == "Enemy3"){
             Player.off_screen = true;
             ScoreManager.score += 40;
+            Enemy.lives -= 1;
             Destroy(this.gameObject);
             Destroy(col.gameObject);
         }

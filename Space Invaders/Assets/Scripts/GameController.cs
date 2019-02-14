@@ -7,6 +7,7 @@ public class GameController : MonoBehaviour
 {
     public static bool isPaused = false;
     public Player player;
+    public Enemy enemy;
     public GameObject pauseMenu;
     public GameObject gameOver;
     public GameObject gameWin;
@@ -16,7 +17,7 @@ public class GameController : MonoBehaviour
         pauseMenu.SetActive(false);
         gameOver.SetActive(false);
         gameWin.SetActive(false);
-
+        Time.timeScale = 1f;
     }
 
     // Update is called once per frame
@@ -25,6 +26,10 @@ public class GameController : MonoBehaviour
         if (player.getLives() == 0)
         {
             GameOver();
+        }
+
+        if (enemy.getLives() == 0){
+            GameWin();
         }
 
         else if (false)
@@ -66,6 +71,7 @@ public class GameController : MonoBehaviour
 
     public void RestartGame()
     {
+        Debug.Log("what");
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         Time.timeScale = 1f;
     }

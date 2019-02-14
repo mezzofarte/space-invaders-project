@@ -15,6 +15,7 @@ public class Player : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        lives = 3;
         m_rigidbody = this.GetComponent<Rigidbody2D>();
         off_screen = true;
     }
