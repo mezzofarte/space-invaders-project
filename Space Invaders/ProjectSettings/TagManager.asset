@@ -11,6 +11,10 @@ TagManager:
   - Top
   - Bullet
   - Ignore
+  - Enemy1
+  - Enemy2
+  - Enemy3
+  - Bottommost
   layers:
   - Default
   - TransparentFX
