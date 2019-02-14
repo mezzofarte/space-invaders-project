@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class GameController : MonoBehaviour
 {
     public static bool isPaused = false;
-    public static bool loseState = false;
+    public Player player;
     public GameObject pauseMenu;
     public GameObject gameOver;
 
@@ -20,13 +20,14 @@ public class GameController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (loseState)
+        if (player.lives == 0)
         {
             GameOver();
         }
 
         else if (Input.GetKeyDown(KeyCode.Escape))
         {
+            Debug.Log(player.lives);
             if (isPaused)
             {
                 ResumeGame();

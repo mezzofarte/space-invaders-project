@@ -48,11 +48,6 @@ public class Player : MonoBehaviour
         m_rigidbody.velocity = new Vector2(movementModifier * speed, currentVelocity.y);
     }
 
-    void OnCollisionEnter2D(Collision2D col)
-    {
-  
-    }
-
     void OnCollisionExit2D(Collision2D collision)
     {
         
