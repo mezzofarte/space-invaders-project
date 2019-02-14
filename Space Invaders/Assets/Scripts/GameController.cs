@@ -9,11 +9,13 @@ public class GameController : MonoBehaviour
     public Player player;
     public GameObject pauseMenu;
     public GameObject gameOver;
+    public GameObject gameWin;
 
     void Start()
     {
         pauseMenu.SetActive(false);
         gameOver.SetActive(false);
+        gameWin.SetActive(false);
 
     }
 
@@ -25,9 +27,13 @@ public class GameController : MonoBehaviour
             GameOver();
         }
 
+        else if (false)
+        {
+            GameWin();
+        }
+
         else if (Input.GetKeyDown(KeyCode.Escape))
         {
-            Debug.Log(player.getLives());
             if (isPaused)
             {
                 ResumeGame();
@@ -45,6 +51,12 @@ public class GameController : MonoBehaviour
         Time.timeScale = 0f;
     }
 
+    public void GameWin()
+    {
+        gameWin.SetActive(true);
+        Time.timeScale = 0f;
+    }
+
     public void ResumeGame()
     {
         pauseMenu.SetActive(false);
@@ -55,6 +67,7 @@ public class GameController : MonoBehaviour
     public void RestartGame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        Time.timeScale = 1f;
     }
 
     void PauseGame()
