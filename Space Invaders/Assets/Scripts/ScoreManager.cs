@@ -6,9 +6,9 @@ using UnityEngine.UI;
 public class ScoreManager : MonoBehaviour
 {
     public static int score;
-    Text text;
+
     void Awake(){
-        text = GetComponent<Text>();
+        // text = GetComponent<Text>();
         score = 0;
     }
 

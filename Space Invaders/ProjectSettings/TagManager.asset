@@ -28,7 +28,7 @@ TagManager:
   - Bottom
   - Bullet
   - Ignore
-  - 
+  - Enemy
   - 
   - 
   - 
@@ -63,6 +63,9 @@ TagManager:
     locked: 0
   - name: Background 4
     uniqueID: 3777590367
+    locked: 0
+  - name: EnemyBullet
+    uniqueID: 3364441629
     locked: 0
   - name: Enemies
     uniqueID: 2344620695

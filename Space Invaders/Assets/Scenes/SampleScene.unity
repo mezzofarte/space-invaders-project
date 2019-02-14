@@ -123,7 +123,8 @@ GameObject:
   - component: {fileID: 4879383}
   - component: {fileID: 4879384}
   - component: {fileID: 4879385}
-  m_Layer: 0
+  - component: {fileID: 4879386}
+  m_Layer: 12
   m_Name: cookies_6 (15)
   m_TagString: Enemy2
   m_Icon: {fileID: 0}
@@ -179,7 +180,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1950346601
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300012, guid: 8872fb409d4214e8481dbbf530da9547, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -218,6 +219,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.84, y: 0.84}
   m_EdgeRadius: 0
+--- !u!114 &4879386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4879382}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f38745e268a1442f4bb7b7e65dd2bfbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyBullet: {fileID: 123088382281631225, guid: 60abcd7d621ba464bbec458753fa2193,
+    type: 3}
 --- !u!1 &40594088
 GameObject:
   m_ObjectHideFlags: 0
@@ -229,7 +244,8 @@ GameObject:
   - component: {fileID: 40594089}
   - component: {fileID: 40594090}
   - component: {fileID: 40594091}
-  m_Layer: 0
+  - component: {fileID: 40594092}
+  m_Layer: 12
   m_Name: cookies_6 (3)
   m_TagString: Enemy2
   m_Icon: {fileID: 0}
@@ -285,7 +301,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1950346601
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300012, guid: 8872fb409d4214e8481dbbf530da9547, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -324,6 +340,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.84, y: 0.84}
   m_EdgeRadius: 0
+--- !u!114 &40594092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 40594088}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f38745e268a1442f4bb7b7e65dd2bfbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyBullet: {fileID: 123088382281631225, guid: 60abcd7d621ba464bbec458753fa2193,
+    type: 3}
 --- !u!1 &51152461
 GameObject:
   m_ObjectHideFlags: 0
@@ -459,11 +489,11 @@ MonoBehaviour:
     lineCount: 1
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 0
+  m_havePropertiesChanged: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
-  m_isInputParsingRequired: 0
+  m_isInputParsingRequired: 1
   m_inputSource: 0
   m_hasFontAssetChanged: 0
   m_subTextObjects:
@@ -625,7 +655,8 @@ GameObject:
   - component: {fileID: 106263160}
   - component: {fileID: 106263161}
   - component: {fileID: 106263162}
-  m_Layer: 0
+  - component: {fileID: 106263163}
+  m_Layer: 12
   m_Name: cookies_12 (7)
   m_TagString: Enemy3
   m_Icon: {fileID: 0}
@@ -681,7 +712,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1950346601
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300024, guid: 8872fb409d4214e8481dbbf530da9547, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -720,6 +751,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.72, y: 0.83}
   m_EdgeRadius: 0
+--- !u!114 &106263163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 106263159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f38745e268a1442f4bb7b7e65dd2bfbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyBullet: {fileID: 123088382281631225, guid: 60abcd7d621ba464bbec458753fa2193,
+    type: 3}
 --- !u!1 &117518152
 GameObject:
   m_ObjectHideFlags: 0
@@ -731,7 +776,8 @@ GameObject:
   - component: {fileID: 117518153}
   - component: {fileID: 117518154}
   - component: {fileID: 117518155}
-  m_Layer: 0
+  - component: {fileID: 117518156}
+  m_Layer: 12
   m_Name: cookie1 [9]
   m_TagString: Enemy1
   m_Icon: {fileID: 0}
@@ -787,7 +833,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1950346601
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 8872fb409d4214e8481dbbf530da9547, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -826,6 +872,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.84, y: 0.84}
   m_EdgeRadius: 0
+--- !u!114 &117518156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 117518152}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f38745e268a1442f4bb7b7e65dd2bfbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyBullet: {fileID: 123088382281631225, guid: 60abcd7d621ba464bbec458753fa2193,
+    type: 3}
 --- !u!1 &120471560
 GameObject:
   m_ObjectHideFlags: 0
@@ -837,7 +897,8 @@ GameObject:
   - component: {fileID: 120471561}
   - component: {fileID: 120471562}
   - component: {fileID: 120471563}
-  m_Layer: 0
+  - component: {fileID: 120471564}
+  m_Layer: 12
   m_Name: cookies_6 (18)
   m_TagString: Enemy2
   m_Icon: {fileID: 0}
@@ -893,7 +954,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1950346601
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300012, guid: 8872fb409d4214e8481dbbf530da9547, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -932,6 +993,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.84, y: 0.84}
   m_EdgeRadius: 0
+--- !u!114 &120471564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 120471560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f38745e268a1442f4bb7b7e65dd2bfbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyBullet: {fileID: 123088382281631225, guid: 60abcd7d621ba464bbec458753fa2193,
+    type: 3}
 --- !u!1 &142328431
 GameObject:
   m_ObjectHideFlags: 0
@@ -1067,11 +1142,11 @@ MonoBehaviour:
     lineCount: 1
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 0
+  m_havePropertiesChanged: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
-  m_isInputParsingRequired: 0
+  m_isInputParsingRequired: 1
   m_inputSource: 0
   m_hasFontAssetChanged: 0
   m_subTextObjects:
@@ -1441,7 +1516,8 @@ GameObject:
   - component: {fileID: 195519721}
   - component: {fileID: 195519722}
   - component: {fileID: 195519723}
-  m_Layer: 0
+  - component: {fileID: 195519724}
+  m_Layer: 12
   m_Name: cookie1 [3]
   m_TagString: Enemy1
   m_Icon: {fileID: 0}
@@ -1497,7 +1573,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1950346601
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 8872fb409d4214e8481dbbf530da9547, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1536,6 +1612,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.84, y: 0.84}
   m_EdgeRadius: 0
+--- !u!114 &195519724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 195519720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f38745e268a1442f4bb7b7e65dd2bfbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyBullet: {fileID: 123088382281631225, guid: 60abcd7d621ba464bbec458753fa2193,
+    type: 3}
 --- !u!1 &215008190
 GameObject:
   m_ObjectHideFlags: 0
@@ -1613,7 +1703,8 @@ GameObject:
   - component: {fileID: 238857923}
   - component: {fileID: 238857924}
   - component: {fileID: 238857925}
-  m_Layer: 0
+  - component: {fileID: 238857926}
+  m_Layer: 12
   m_Name: cookies_6 (9)
   m_TagString: Enemy2
   m_Icon: {fileID: 0}
@@ -1669,7 +1760,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1950346601
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300012, guid: 8872fb409d4214e8481dbbf530da9547, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1708,6 +1799,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.84, y: 0.84}
   m_EdgeRadius: 0
+--- !u!114 &238857926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 238857922}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f38745e268a1442f4bb7b7e65dd2bfbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyBullet: {fileID: 123088382281631225, guid: 60abcd7d621ba464bbec458753fa2193,
+    type: 3}
 --- !u!1 &253052513
 GameObject:
   m_ObjectHideFlags: 0
@@ -1719,7 +1824,8 @@ GameObject:
   - component: {fileID: 253052514}
   - component: {fileID: 253052515}
   - component: {fileID: 253052516}
-  m_Layer: 0
+  - component: {fileID: 253052517}
+  m_Layer: 12
   m_Name: cookies_6 (20)
   m_TagString: Enemy2
   m_Icon: {fileID: 0}
@@ -1775,7 +1881,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1950346601
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300012, guid: 8872fb409d4214e8481dbbf530da9547, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1814,6 +1920,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.84, y: 0.84}
   m_EdgeRadius: 0
+--- !u!114 &253052517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 253052513}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f38745e268a1442f4bb7b7e65dd2bfbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyBullet: {fileID: 123088382281631225, guid: 60abcd7d621ba464bbec458753fa2193,
+    type: 3}
 --- !u!1 &294044494
 GameObject:
   m_ObjectHideFlags: 0
@@ -1825,7 +1945,8 @@ GameObject:
   - component: {fileID: 294044495}
   - component: {fileID: 294044496}
   - component: {fileID: 294044497}
-  m_Layer: 0
+  - component: {fileID: 294044498}
+  m_Layer: 12
   m_Name: cookie1 [3] (1)
   m_TagString: Enemy1
   m_Icon: {fileID: 0}
@@ -1881,7 +2002,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1950346601
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 8872fb409d4214e8481dbbf530da9547, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1920,6 +2041,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.84, y: 0.84}
   m_EdgeRadius: 0
+--- !u!114 &294044498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 294044494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f38745e268a1442f4bb7b7e65dd2bfbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyBullet: {fileID: 123088382281631225, guid: 60abcd7d621ba464bbec458753fa2193,
+    type: 3}
 --- !u!1 &297967433
 GameObject:
   m_ObjectHideFlags: 0
@@ -1931,7 +2066,8 @@ GameObject:
   - component: {fileID: 297967434}
   - component: {fileID: 297967435}
   - component: {fileID: 297967436}
-  m_Layer: 0
+  - component: {fileID: 297967437}
+  m_Layer: 12
   m_Name: cookie1 [8] (1)
   m_TagString: Enemy1
   m_Icon: {fileID: 0}
@@ -1987,7 +2123,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1950346601
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 8872fb409d4214e8481dbbf530da9547, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2026,6 +2162,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.84, y: 0.84}
   m_EdgeRadius: 0
+--- !u!114 &297967437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 297967433}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f38745e268a1442f4bb7b7e65dd2bfbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyBullet: {fileID: 123088382281631225, guid: 60abcd7d621ba464bbec458753fa2193,
+    type: 3}
 --- !u!1 &322935245
 GameObject:
   m_ObjectHideFlags: 0
@@ -2037,7 +2187,8 @@ GameObject:
   - component: {fileID: 322935246}
   - component: {fileID: 322935247}
   - component: {fileID: 322935248}
-  m_Layer: 0
+  - component: {fileID: 322935249}
+  m_Layer: 12
   m_Name: cookies_12 (10)
   m_TagString: Enemy3
   m_Icon: {fileID: 0}
@@ -2093,7 +2244,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1950346601
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300024, guid: 8872fb409d4214e8481dbbf530da9547, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2132,6 +2283,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.72, y: 0.83}
   m_EdgeRadius: 0
+--- !u!114 &322935249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 322935245}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f38745e268a1442f4bb7b7e65dd2bfbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyBullet: {fileID: 123088382281631225, guid: 60abcd7d621ba464bbec458753fa2193,
+    type: 3}
 --- !u!1 &337779804
 GameObject:
   m_ObjectHideFlags: 0
@@ -2143,7 +2308,8 @@ GameObject:
   - component: {fileID: 337779805}
   - component: {fileID: 337779806}
   - component: {fileID: 337779807}
-  m_Layer: 0
+  - component: {fileID: 337779808}
+  m_Layer: 12
   m_Name: cookie1 [7] (1)
   m_TagString: Enemy1
   m_Icon: {fileID: 0}
@@ -2199,7 +2365,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1950346601
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 8872fb409d4214e8481dbbf530da9547, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2238,6 +2404,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.84, y: 0.84}
   m_EdgeRadius: 0
+--- !u!114 &337779808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 337779804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f38745e268a1442f4bb7b7e65dd2bfbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyBullet: {fileID: 123088382281631225, guid: 60abcd7d621ba464bbec458753fa2193,
+    type: 3}
 --- !u!1 &406082422
 GameObject:
   m_ObjectHideFlags: 0
@@ -2249,7 +2429,8 @@ GameObject:
   - component: {fileID: 406082423}
   - component: {fileID: 406082424}
   - component: {fileID: 406082425}
-  m_Layer: 0
+  - component: {fileID: 406082426}
+  m_Layer: 12
   m_Name: cookies_6 (12)
   m_TagString: Enemy2
   m_Icon: {fileID: 0}
@@ -2305,7 +2486,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1950346601
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300012, guid: 8872fb409d4214e8481dbbf530da9547, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2344,6 +2525,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.84, y: 0.84}
   m_EdgeRadius: 0
+--- !u!114 &406082426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 406082422}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f38745e268a1442f4bb7b7e65dd2bfbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyBullet: {fileID: 123088382281631225, guid: 60abcd7d621ba464bbec458753fa2193,
+    type: 3}
 --- !u!1 &409472461
 GameObject:
   m_ObjectHideFlags: 0
@@ -2355,7 +2550,8 @@ GameObject:
   - component: {fileID: 409472462}
   - component: {fileID: 409472463}
   - component: {fileID: 409472464}
-  m_Layer: 0
+  - component: {fileID: 409472465}
+  m_Layer: 12
   m_Name: cookies_6
   m_TagString: Enemy2
   m_Icon: {fileID: 0}
@@ -2411,7 +2607,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1950346601
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300012, guid: 8872fb409d4214e8481dbbf530da9547, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2450,6 +2646,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.84, y: 0.84}
   m_EdgeRadius: 0
+--- !u!114 &409472465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 409472461}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f38745e268a1442f4bb7b7e65dd2bfbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyBullet: {fileID: 123088382281631225, guid: 60abcd7d621ba464bbec458753fa2193,
+    type: 3}
 --- !u!1 &412594389
 GameObject:
   m_ObjectHideFlags: 0
@@ -2461,7 +2671,8 @@ GameObject:
   - component: {fileID: 412594390}
   - component: {fileID: 412594391}
   - component: {fileID: 412594392}
-  m_Layer: 0
+  - component: {fileID: 412594393}
+  m_Layer: 12
   m_Name: cookie1 [11] (1)
   m_TagString: Enemy1
   m_Icon: {fileID: 0}
@@ -2517,7 +2728,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1950346601
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 8872fb409d4214e8481dbbf530da9547, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2556,6 +2767,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.84, y: 0.84}
   m_EdgeRadius: 0
+--- !u!114 &412594393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 412594389}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f38745e268a1442f4bb7b7e65dd2bfbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyBullet: {fileID: 123088382281631225, guid: 60abcd7d621ba464bbec458753fa2193,
+    type: 3}
 --- !u!1 &427020332
 GameObject:
   m_ObjectHideFlags: 0
@@ -2693,11 +2918,11 @@ MonoBehaviour:
     lineCount: 1
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 0
+  m_havePropertiesChanged: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
-  m_isInputParsingRequired: 0
+  m_isInputParsingRequired: 1
   m_inputSource: 0
   m_hasFontAssetChanged: 0
   m_subTextObjects:
@@ -2730,7 +2955,8 @@ GameObject:
   - component: {fileID: 434819512}
   - component: {fileID: 434819513}
   - component: {fileID: 434819514}
-  m_Layer: 0
+  - component: {fileID: 434819515}
+  m_Layer: 12
   m_Name: cookies_12 (6)
   m_TagString: Enemy3
   m_Icon: {fileID: 0}
@@ -2786,7 +3012,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1950346601
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300024, guid: 8872fb409d4214e8481dbbf530da9547, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2825,6 +3051,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.72, y: 0.83}
   m_EdgeRadius: 0
+--- !u!114 &434819515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 434819511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f38745e268a1442f4bb7b7e65dd2bfbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyBullet: {fileID: 123088382281631225, guid: 60abcd7d621ba464bbec458753fa2193,
+    type: 3}
 --- !u!1 &508999012
 GameObject:
   m_ObjectHideFlags: 0
@@ -2836,7 +3076,8 @@ GameObject:
   - component: {fileID: 508999013}
   - component: {fileID: 508999014}
   - component: {fileID: 508999015}
-  m_Layer: 0
+  - component: {fileID: 508999016}
+  m_Layer: 12
   m_Name: cookies_6 (10)
   m_TagString: Enemy2
   m_Icon: {fileID: 0}
@@ -2892,7 +3133,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1950346601
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300012, guid: 8872fb409d4214e8481dbbf530da9547, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2931,6 +3172,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.84, y: 0.84}
   m_EdgeRadius: 0
+--- !u!114 &508999016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 508999012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f38745e268a1442f4bb7b7e65dd2bfbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyBullet: {fileID: 123088382281631225, guid: 60abcd7d621ba464bbec458753fa2193,
+    type: 3}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -3121,7 +3376,8 @@ GameObject:
   - component: {fileID: 549126018}
   - component: {fileID: 549126019}
   - component: {fileID: 549126020}
-  m_Layer: 0
+  - component: {fileID: 549126021}
+  m_Layer: 12
   m_Name: cookie1 [11]
   m_TagString: Enemy1
   m_Icon: {fileID: 0}
@@ -3177,7 +3433,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1950346601
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 8872fb409d4214e8481dbbf530da9547, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -3216,6 +3472,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.84, y: 0.84}
   m_EdgeRadius: 0
+--- !u!114 &549126021
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 549126017}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f38745e268a1442f4bb7b7e65dd2bfbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyBullet: {fileID: 123088382281631225, guid: 60abcd7d621ba464bbec458753fa2193,
+    type: 3}
 --- !u!1 &683509319
 GameObject:
   m_ObjectHideFlags: 0
@@ -3227,7 +3497,8 @@ GameObject:
   - component: {fileID: 683509320}
   - component: {fileID: 683509321}
   - component: {fileID: 683509322}
-  m_Layer: 0
+  - component: {fileID: 683509323}
+  m_Layer: 12
   m_Name: cookies_6 (7)
   m_TagString: Enemy2
   m_Icon: {fileID: 0}
@@ -3283,7 +3554,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1950346601
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300012, guid: 8872fb409d4214e8481dbbf530da9547, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -3322,6 +3593,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.84, y: 0.84}
   m_EdgeRadius: 0
+--- !u!114 &683509323
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 683509319}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f38745e268a1442f4bb7b7e65dd2bfbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyBullet: {fileID: 123088382281631225, guid: 60abcd7d621ba464bbec458753fa2193,
+    type: 3}
 --- !u!1 &693531132
 GameObject:
   m_ObjectHideFlags: 0
@@ -3341,7 +3626,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &693531133
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3449,7 +3734,8 @@ GameObject:
   - component: {fileID: 724112445}
   - component: {fileID: 724112446}
   - component: {fileID: 724112447}
-  m_Layer: 0
+  - component: {fileID: 724112448}
+  m_Layer: 12
   m_Name: cookies_12 (5)
   m_TagString: Enemy3
   m_Icon: {fileID: 0}
@@ -3505,7 +3791,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1950346601
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300024, guid: 8872fb409d4214e8481dbbf530da9547, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -3544,6 +3830,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.72, y: 0.83}
   m_EdgeRadius: 0
+--- !u!114 &724112448
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 724112444}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f38745e268a1442f4bb7b7e65dd2bfbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyBullet: {fileID: 123088382281631225, guid: 60abcd7d621ba464bbec458753fa2193,
+    type: 3}
 --- !u!1 &728426007
 GameObject:
   m_ObjectHideFlags: 0
@@ -3612,7 +3912,8 @@ GameObject:
   - component: {fileID: 751645906}
   - component: {fileID: 751645907}
   - component: {fileID: 751645908}
-  m_Layer: 0
+  - component: {fileID: 751645909}
+  m_Layer: 12
   m_Name: cookies_6 (14)
   m_TagString: Enemy2
   m_Icon: {fileID: 0}
@@ -3668,7 +3969,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1950346601
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300012, guid: 8872fb409d4214e8481dbbf530da9547, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -3707,6 +4008,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.84, y: 0.84}
   m_EdgeRadius: 0
+--- !u!114 &751645909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 751645905}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f38745e268a1442f4bb7b7e65dd2bfbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyBullet: {fileID: 123088382281631225, guid: 60abcd7d621ba464bbec458753fa2193,
+    type: 3}
 --- !u!1 &776946245
 GameObject:
   m_ObjectHideFlags: 0
@@ -3718,7 +4033,8 @@ GameObject:
   - component: {fileID: 776946246}
   - component: {fileID: 776946247}
   - component: {fileID: 776946248}
-  m_Layer: 0
+  - component: {fileID: 776946249}
+  m_Layer: 12
   m_Name: cookies_12 (4)
   m_TagString: Enemy3
   m_Icon: {fileID: 0}
@@ -3774,7 +4090,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1950346601
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300024, guid: 8872fb409d4214e8481dbbf530da9547, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -3813,6 +4129,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.72, y: 0.83}
   m_EdgeRadius: 0
+--- !u!114 &776946249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 776946245}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f38745e268a1442f4bb7b7e65dd2bfbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyBullet: {fileID: 123088382281631225, guid: 60abcd7d621ba464bbec458753fa2193,
+    type: 3}
 --- !u!1 &799007143
 GameObject:
   m_ObjectHideFlags: 0
@@ -3948,11 +4278,11 @@ MonoBehaviour:
     lineCount: 1
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 0
+  m_havePropertiesChanged: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
-  m_isInputParsingRequired: 0
+  m_isInputParsingRequired: 1
   m_inputSource: 0
   m_hasFontAssetChanged: 0
   m_subTextObjects:
@@ -3985,7 +4315,8 @@ GameObject:
   - component: {fileID: 821048511}
   - component: {fileID: 821048512}
   - component: {fileID: 821048513}
-  m_Layer: 0
+  - component: {fileID: 821048514}
+  m_Layer: 12
   m_Name: cookies_6 (6)
   m_TagString: Enemy2
   m_Icon: {fileID: 0}
@@ -4041,7 +4372,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1950346601
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300012, guid: 8872fb409d4214e8481dbbf530da9547, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -4080,6 +4411,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.84, y: 0.84}
   m_EdgeRadius: 0
+--- !u!114 &821048514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 821048510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f38745e268a1442f4bb7b7e65dd2bfbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyBullet: {fileID: 123088382281631225, guid: 60abcd7d621ba464bbec458753fa2193,
+    type: 3}
 --- !u!1 &831528951
 GameObject:
   m_ObjectHideFlags: 0
@@ -4091,7 +4436,8 @@ GameObject:
   - component: {fileID: 831528952}
   - component: {fileID: 831528953}
   - component: {fileID: 831528954}
-  m_Layer: 0
+  - component: {fileID: 831528955}
+  m_Layer: 12
   m_Name: cookies_6 (11)
   m_TagString: Enemy2
   m_Icon: {fileID: 0}
@@ -4147,7 +4493,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1950346601
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300012, guid: 8872fb409d4214e8481dbbf530da9547, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -4186,6 +4532,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.84, y: 0.84}
   m_EdgeRadius: 0
+--- !u!114 &831528955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 831528951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f38745e268a1442f4bb7b7e65dd2bfbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyBullet: {fileID: 123088382281631225, guid: 60abcd7d621ba464bbec458753fa2193,
+    type: 3}
 --- !u!1 &837804223
 GameObject:
   m_ObjectHideFlags: 0
@@ -4276,7 +4636,8 @@ GameObject:
   - component: {fileID: 886628606}
   - component: {fileID: 886628607}
   - component: {fileID: 886628608}
-  m_Layer: 0
+  - component: {fileID: 886628609}
+  m_Layer: 12
   m_Name: cookie1 [4] (1)
   m_TagString: Enemy1
   m_Icon: {fileID: 0}
@@ -4332,7 +4693,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1950346601
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 8872fb409d4214e8481dbbf530da9547, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -4371,6 +4732,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.84, y: 0.84}
   m_EdgeRadius: 0
+--- !u!114 &886628609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 886628605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f38745e268a1442f4bb7b7e65dd2bfbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyBullet: {fileID: 123088382281631225, guid: 60abcd7d621ba464bbec458753fa2193,
+    type: 3}
 --- !u!1 &896792937
 GameObject:
   m_ObjectHideFlags: 0
@@ -4382,7 +4757,8 @@ GameObject:
   - component: {fileID: 896792938}
   - component: {fileID: 896792939}
   - component: {fileID: 896792940}
-  m_Layer: 0
+  - component: {fileID: 896792941}
+  m_Layer: 12
   m_Name: cookie1 [1] (1)
   m_TagString: Enemy1
   m_Icon: {fileID: 0}
@@ -4438,7 +4814,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1950346601
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 8872fb409d4214e8481dbbf530da9547, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -4477,6 +4853,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.84, y: 0.84}
   m_EdgeRadius: 0
+--- !u!114 &896792941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 896792937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f38745e268a1442f4bb7b7e65dd2bfbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyBullet: {fileID: 123088382281631225, guid: 60abcd7d621ba464bbec458753fa2193,
+    type: 3}
 --- !u!1 &912951264
 GameObject:
   m_ObjectHideFlags: 0
@@ -4612,11 +5002,11 @@ MonoBehaviour:
     lineCount: 1
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 0
+  m_havePropertiesChanged: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
-  m_isInputParsingRequired: 0
+  m_isInputParsingRequired: 1
   m_inputSource: 0
   m_hasFontAssetChanged: 0
   m_subTextObjects:
@@ -4649,7 +5039,8 @@ GameObject:
   - component: {fileID: 917423848}
   - component: {fileID: 917423849}
   - component: {fileID: 917423850}
-  m_Layer: 0
+  - component: {fileID: 917423851}
+  m_Layer: 12
   m_Name: cookie1 [2]
   m_TagString: Enemy1
   m_Icon: {fileID: 0}
@@ -4705,7 +5096,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1950346601
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 8872fb409d4214e8481dbbf530da9547, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -4744,6 +5135,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.84, y: 0.84}
   m_EdgeRadius: 0
+--- !u!114 &917423851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 917423847}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f38745e268a1442f4bb7b7e65dd2bfbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyBullet: {fileID: 123088382281631225, guid: 60abcd7d621ba464bbec458753fa2193,
+    type: 3}
 --- !u!1 &922612595
 GameObject:
   m_ObjectHideFlags: 0
@@ -4908,7 +5313,8 @@ GameObject:
   - component: {fileID: 983774441}
   - component: {fileID: 983774442}
   - component: {fileID: 983774443}
-  m_Layer: 0
+  - component: {fileID: 983774444}
+  m_Layer: 12
   m_Name: cookie1 [9] (1)
   m_TagString: Enemy1
   m_Icon: {fileID: 0}
@@ -4964,7 +5370,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1950346601
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 8872fb409d4214e8481dbbf530da9547, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -5003,6 +5409,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.84, y: 0.84}
   m_EdgeRadius: 0
+--- !u!114 &983774444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 983774440}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f38745e268a1442f4bb7b7e65dd2bfbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyBullet: {fileID: 123088382281631225, guid: 60abcd7d621ba464bbec458753fa2193,
+    type: 3}
 --- !u!1 &1006733724
 GameObject:
   m_ObjectHideFlags: 0
@@ -5014,7 +5434,8 @@ GameObject:
   - component: {fileID: 1006733725}
   - component: {fileID: 1006733726}
   - component: {fileID: 1006733727}
-  m_Layer: 0
+  - component: {fileID: 1006733728}
+  m_Layer: 12
   m_Name: cookie1 [2] (1)
   m_TagString: Enemy1
   m_Icon: {fileID: 0}
@@ -5070,7 +5491,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1950346601
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 8872fb409d4214e8481dbbf530da9547, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -5109,6 +5530,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.84, y: 0.84}
   m_EdgeRadius: 0
+--- !u!114 &1006733728
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1006733724}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f38745e268a1442f4bb7b7e65dd2bfbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyBullet: {fileID: 123088382281631225, guid: 60abcd7d621ba464bbec458753fa2193,
+    type: 3}
 --- !u!1 &1024708336
 GameObject:
   m_ObjectHideFlags: 0
@@ -5120,7 +5555,8 @@ GameObject:
   - component: {fileID: 1024708337}
   - component: {fileID: 1024708338}
   - component: {fileID: 1024708339}
-  m_Layer: 0
+  - component: {fileID: 1024708340}
+  m_Layer: 12
   m_Name: cookie1 [8]
   m_TagString: Enemy1
   m_Icon: {fileID: 0}
@@ -5176,7 +5612,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1950346601
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 8872fb409d4214e8481dbbf530da9547, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -5215,6 +5651,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.84, y: 0.84}
   m_EdgeRadius: 0
+--- !u!114 &1024708340
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1024708336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f38745e268a1442f4bb7b7e65dd2bfbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyBullet: {fileID: 123088382281631225, guid: 60abcd7d621ba464bbec458753fa2193,
+    type: 3}
 --- !u!1 &1129970815
 GameObject:
   m_ObjectHideFlags: 0
@@ -5303,7 +5753,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -68151463
-  m_SortingLayer: 6
+  m_SortingLayer: 7
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: f2d704403fd8746f196ee16333a5eb16, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -5343,7 +5793,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
-  Bullet: {fileID: 180576206141723000, guid: b42c5f11347a0487bae1c3842ed1cb8c, type: 3}
+  bullet: {fileID: 180576206141723000, guid: b42c5f11347a0487bae1c3842ed1cb8c, type: 3}
 --- !u!50 &1168752698
 Rigidbody2D:
   serializedVersion: 4
@@ -5436,7 +5886,8 @@ GameObject:
   - component: {fileID: 1186757893}
   - component: {fileID: 1186757894}
   - component: {fileID: 1186757895}
-  m_Layer: 0
+  - component: {fileID: 1186757896}
+  m_Layer: 12
   m_Name: cookie1 [6] (1)
   m_TagString: Enemy1
   m_Icon: {fileID: 0}
@@ -5492,7 +5943,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1950346601
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 8872fb409d4214e8481dbbf530da9547, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -5531,6 +5982,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.84, y: 0.84}
   m_EdgeRadius: 0
+--- !u!114 &1186757896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1186757892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f38745e268a1442f4bb7b7e65dd2bfbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyBullet: {fileID: 123088382281631225, guid: 60abcd7d621ba464bbec458753fa2193,
+    type: 3}
 --- !u!1 &1193485623
 GameObject:
   m_ObjectHideFlags: 0
@@ -5542,7 +6007,8 @@ GameObject:
   - component: {fileID: 1193485624}
   - component: {fileID: 1193485625}
   - component: {fileID: 1193485626}
-  m_Layer: 0
+  - component: {fileID: 1193485627}
+  m_Layer: 12
   m_Name: cookie1 [7]
   m_TagString: Enemy1
   m_Icon: {fileID: 0}
@@ -5598,7 +6064,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1950346601
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 8872fb409d4214e8481dbbf530da9547, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -5637,6 +6103,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.84, y: 0.84}
   m_EdgeRadius: 0
+--- !u!114 &1193485627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1193485623}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f38745e268a1442f4bb7b7e65dd2bfbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyBullet: {fileID: 123088382281631225, guid: 60abcd7d621ba464bbec458753fa2193,
+    type: 3}
 --- !u!1 &1210095870
 GameObject:
   m_ObjectHideFlags: 0
@@ -5806,11 +6286,11 @@ MonoBehaviour:
     lineCount: 1
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 0
+  m_havePropertiesChanged: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
-  m_isInputParsingRequired: 0
+  m_isInputParsingRequired: 1
   m_inputSource: 0
   m_hasFontAssetChanged: 0
   m_subTextObjects:
@@ -5843,7 +6323,8 @@ GameObject:
   - component: {fileID: 1253767682}
   - component: {fileID: 1253767681}
   - component: {fileID: 1253767683}
-  m_Layer: 0
+  - component: {fileID: 1253767684}
+  m_Layer: 12
   m_Name: cookie1 [1]
   m_TagString: Enemy1
   m_Icon: {fileID: 0}
@@ -5885,7 +6366,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1950346601
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 8872fb409d4214e8481dbbf530da9547, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -5938,6 +6419,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.84, y: 0.84}
   m_EdgeRadius: 0
+--- !u!114 &1253767684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1253767680}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f38745e268a1442f4bb7b7e65dd2bfbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyBullet: {fileID: 123088382281631225, guid: 60abcd7d621ba464bbec458753fa2193,
+    type: 3}
 --- !u!1 &1267785558
 GameObject:
   m_ObjectHideFlags: 0
@@ -5949,7 +6444,8 @@ GameObject:
   - component: {fileID: 1267785559}
   - component: {fileID: 1267785560}
   - component: {fileID: 1267785561}
-  m_Layer: 0
+  - component: {fileID: 1267785562}
+  m_Layer: 12
   m_Name: cookies_6 (17)
   m_TagString: Enemy2
   m_Icon: {fileID: 0}
@@ -6005,7 +6501,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1950346601
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300012, guid: 8872fb409d4214e8481dbbf530da9547, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -6044,6 +6540,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.84, y: 0.84}
   m_EdgeRadius: 0
+--- !u!114 &1267785562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1267785558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f38745e268a1442f4bb7b7e65dd2bfbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyBullet: {fileID: 123088382281631225, guid: 60abcd7d621ba464bbec458753fa2193,
+    type: 3}
 --- !u!1 &1300872154
 GameObject:
   m_ObjectHideFlags: 0
@@ -6112,7 +6622,8 @@ GameObject:
   - component: {fileID: 1306300150}
   - component: {fileID: 1306300151}
   - component: {fileID: 1306300152}
-  m_Layer: 0
+  - component: {fileID: 1306300153}
+  m_Layer: 12
   m_Name: cookie1 [6]
   m_TagString: Enemy1
   m_Icon: {fileID: 0}
@@ -6168,7 +6679,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1950346601
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 8872fb409d4214e8481dbbf530da9547, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -6207,6 +6718,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.84, y: 0.84}
   m_EdgeRadius: 0
+--- !u!114 &1306300153
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1306300149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f38745e268a1442f4bb7b7e65dd2bfbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyBullet: {fileID: 123088382281631225, guid: 60abcd7d621ba464bbec458753fa2193,
+    type: 3}
 --- !u!1 &1319745112
 GameObject:
   m_ObjectHideFlags: 0
@@ -6280,7 +6805,8 @@ GameObject:
   - component: {fileID: 1358817442}
   - component: {fileID: 1358817443}
   - component: {fileID: 1358817444}
-  m_Layer: 0
+  - component: {fileID: 1358817445}
+  m_Layer: 12
   m_Name: cookies_12 (8)
   m_TagString: Enemy3
   m_Icon: {fileID: 0}
@@ -6336,7 +6862,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1950346601
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300024, guid: 8872fb409d4214e8481dbbf530da9547, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -6375,6 +6901,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.72, y: 0.83}
   m_EdgeRadius: 0
+--- !u!114 &1358817445
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1358817441}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f38745e268a1442f4bb7b7e65dd2bfbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyBullet: {fileID: 123088382281631225, guid: 60abcd7d621ba464bbec458753fa2193,
+    type: 3}
 --- !u!1 &1360304823
 GameObject:
   m_ObjectHideFlags: 0
@@ -6386,7 +6926,8 @@ GameObject:
   - component: {fileID: 1360304824}
   - component: {fileID: 1360304825}
   - component: {fileID: 1360304826}
-  m_Layer: 0
+  - component: {fileID: 1360304827}
+  m_Layer: 12
   m_Name: cookie1 [10] (1)
   m_TagString: Enemy1
   m_Icon: {fileID: 0}
@@ -6442,7 +6983,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1950346601
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 8872fb409d4214e8481dbbf530da9547, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -6481,6 +7022,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.84, y: 0.84}
   m_EdgeRadius: 0
+--- !u!114 &1360304827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1360304823}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f38745e268a1442f4bb7b7e65dd2bfbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyBullet: {fileID: 123088382281631225, guid: 60abcd7d621ba464bbec458753fa2193,
+    type: 3}
 --- !u!1 &1417824833
 GameObject:
   m_ObjectHideFlags: 0
@@ -6492,7 +7047,8 @@ GameObject:
   - component: {fileID: 1417824834}
   - component: {fileID: 1417824835}
   - component: {fileID: 1417824836}
-  m_Layer: 0
+  - component: {fileID: 1417824837}
+  m_Layer: 12
   m_Name: cookies_12 (2)
   m_TagString: Enemy3
   m_Icon: {fileID: 0}
@@ -6548,7 +7104,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1950346601
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300024, guid: 8872fb409d4214e8481dbbf530da9547, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -6587,6 +7143,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.72, y: 0.83}
   m_EdgeRadius: 0
+--- !u!114 &1417824837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1417824833}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f38745e268a1442f4bb7b7e65dd2bfbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyBullet: {fileID: 123088382281631225, guid: 60abcd7d621ba464bbec458753fa2193,
+    type: 3}
 --- !u!1 &1423304120
 GameObject:
   m_ObjectHideFlags: 0
@@ -6598,7 +7168,8 @@ GameObject:
   - component: {fileID: 1423304121}
   - component: {fileID: 1423304122}
   - component: {fileID: 1423304123}
-  m_Layer: 0
+  - component: {fileID: 1423304124}
+  m_Layer: 12
   m_Name: cookies_6 (5)
   m_TagString: Enemy2
   m_Icon: {fileID: 0}
@@ -6654,7 +7225,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1950346601
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300012, guid: 8872fb409d4214e8481dbbf530da9547, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -6693,6 +7264,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.84, y: 0.84}
   m_EdgeRadius: 0
+--- !u!114 &1423304124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1423304120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f38745e268a1442f4bb7b7e65dd2bfbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyBullet: {fileID: 123088382281631225, guid: 60abcd7d621ba464bbec458753fa2193,
+    type: 3}
 --- !u!1 &1447772995
 GameObject:
   m_ObjectHideFlags: 0
@@ -6726,7 +7311,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
-  controller: {fileID: 693531133}
 --- !u!61 &1447772997
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6740,7 +7324,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.030000001, y: -1.8381724}
+  m_Offset: {x: 0.026, y: -0.026}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -6751,7 +7335,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.815, y: 1.135047}
+  m_Size: {x: 0.84, y: 0.84}
   m_EdgeRadius: 0
 --- !u!212 &1447772998
 SpriteRenderer:
@@ -6788,7 +7372,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1950346601
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300024, guid: 8872fb409d4214e8481dbbf530da9547, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -6809,7 +7393,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1447772995}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.01999998, y: -7.3, z: 0}
+  m_LocalPosition: {x: 0, y: -8, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1253767682}
@@ -6959,7 +7543,8 @@ GameObject:
   - component: {fileID: 1509678905}
   - component: {fileID: 1509678906}
   - component: {fileID: 1509678907}
-  m_Layer: 0
+  - component: {fileID: 1509678908}
+  m_Layer: 12
   m_Name: cookies_6 (13)
   m_TagString: Enemy2
   m_Icon: {fileID: 0}
@@ -7015,7 +7600,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1950346601
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300012, guid: 8872fb409d4214e8481dbbf530da9547, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -7054,6 +7639,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.84, y: 0.84}
   m_EdgeRadius: 0
+--- !u!114 &1509678908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1509678904}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f38745e268a1442f4bb7b7e65dd2bfbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyBullet: {fileID: 123088382281631225, guid: 60abcd7d621ba464bbec458753fa2193,
+    type: 3}
 --- !u!1 &1538452678
 GameObject:
   m_ObjectHideFlags: 0
@@ -7065,7 +7664,8 @@ GameObject:
   - component: {fileID: 1538452679}
   - component: {fileID: 1538452680}
   - component: {fileID: 1538452681}
-  m_Layer: 0
+  - component: {fileID: 1538452682}
+  m_Layer: 12
   m_Name: cookies_12 (3)
   m_TagString: Enemy3
   m_Icon: {fileID: 0}
@@ -7121,7 +7721,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1950346601
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300024, guid: 8872fb409d4214e8481dbbf530da9547, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -7160,6 +7760,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.72, y: 0.83}
   m_EdgeRadius: 0
+--- !u!114 &1538452682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1538452678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f38745e268a1442f4bb7b7e65dd2bfbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyBullet: {fileID: 123088382281631225, guid: 60abcd7d621ba464bbec458753fa2193,
+    type: 3}
 --- !u!1 &1578282559
 GameObject:
   m_ObjectHideFlags: 0
@@ -7171,7 +7785,8 @@ GameObject:
   - component: {fileID: 1578282560}
   - component: {fileID: 1578282561}
   - component: {fileID: 1578282562}
-  m_Layer: 0
+  - component: {fileID: 1578282563}
+  m_Layer: 12
   m_Name: cookie1 [10]
   m_TagString: Enemy1
   m_Icon: {fileID: 0}
@@ -7227,7 +7842,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1950346601
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 8872fb409d4214e8481dbbf530da9547, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -7266,6 +7881,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.84, y: 0.84}
   m_EdgeRadius: 0
+--- !u!114 &1578282563
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1578282559}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f38745e268a1442f4bb7b7e65dd2bfbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyBullet: {fileID: 123088382281631225, guid: 60abcd7d621ba464bbec458753fa2193,
+    type: 3}
 --- !u!1 &1588657271
 GameObject:
   m_ObjectHideFlags: 0
@@ -7277,7 +7906,8 @@ GameObject:
   - component: {fileID: 1588657272}
   - component: {fileID: 1588657273}
   - component: {fileID: 1588657274}
-  m_Layer: 0
+  - component: {fileID: 1588657275}
+  m_Layer: 12
   m_Name: cookie1 [5] (1)
   m_TagString: Enemy1
   m_Icon: {fileID: 0}
@@ -7333,7 +7963,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1950346601
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 8872fb409d4214e8481dbbf530da9547, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -7372,6 +8002,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.84, y: 0.84}
   m_EdgeRadius: 0
+--- !u!114 &1588657275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1588657271}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f38745e268a1442f4bb7b7e65dd2bfbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyBullet: {fileID: 123088382281631225, guid: 60abcd7d621ba464bbec458753fa2193,
+    type: 3}
 --- !u!1 &1637712507
 GameObject:
   m_ObjectHideFlags: 0
@@ -7536,7 +8180,8 @@ GameObject:
   - component: {fileID: 1758398614}
   - component: {fileID: 1758398615}
   - component: {fileID: 1758398616}
-  m_Layer: 0
+  - component: {fileID: 1758398617}
+  m_Layer: 12
   m_Name: cookies_6 (2)
   m_TagString: Enemy2
   m_Icon: {fileID: 0}
@@ -7592,7 +8237,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1950346601
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300012, guid: 8872fb409d4214e8481dbbf530da9547, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -7631,6 +8276,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.84, y: 0.84}
   m_EdgeRadius: 0
+--- !u!114 &1758398617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1758398613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f38745e268a1442f4bb7b7e65dd2bfbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyBullet: {fileID: 123088382281631225, guid: 60abcd7d621ba464bbec458753fa2193,
+    type: 3}
 --- !u!1 &1801976208
 GameObject:
   m_ObjectHideFlags: 0
@@ -7642,7 +8301,8 @@ GameObject:
   - component: {fileID: 1801976209}
   - component: {fileID: 1801976210}
   - component: {fileID: 1801976211}
-  m_Layer: 0
+  - component: {fileID: 1801976212}
+  m_Layer: 12
   m_Name: cookie1 [5]
   m_TagString: Enemy1
   m_Icon: {fileID: 0}
@@ -7698,7 +8358,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1950346601
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 8872fb409d4214e8481dbbf530da9547, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -7737,6 +8397,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.84, y: 0.84}
   m_EdgeRadius: 0
+--- !u!114 &1801976212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1801976208}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f38745e268a1442f4bb7b7e65dd2bfbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyBullet: {fileID: 123088382281631225, guid: 60abcd7d621ba464bbec458753fa2193,
+    type: 3}
 --- !u!1 &1812955763
 GameObject:
   m_ObjectHideFlags: 0
@@ -7748,7 +8422,8 @@ GameObject:
   - component: {fileID: 1812955764}
   - component: {fileID: 1812955765}
   - component: {fileID: 1812955766}
-  m_Layer: 0
+  - component: {fileID: 1812955767}
+  m_Layer: 12
   m_Name: cookies_12 (1)
   m_TagString: Enemy3
   m_Icon: {fileID: 0}
@@ -7804,7 +8479,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1950346601
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300024, guid: 8872fb409d4214e8481dbbf530da9547, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -7843,6 +8518,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.72, y: 0.83}
   m_EdgeRadius: 0
+--- !u!114 &1812955767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1812955763}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f38745e268a1442f4bb7b7e65dd2bfbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyBullet: {fileID: 123088382281631225, guid: 60abcd7d621ba464bbec458753fa2193,
+    type: 3}
 --- !u!1 &1868140380
 GameObject:
   m_ObjectHideFlags: 0
@@ -7854,7 +8543,8 @@ GameObject:
   - component: {fileID: 1868140381}
   - component: {fileID: 1868140382}
   - component: {fileID: 1868140383}
-  m_Layer: 0
+  - component: {fileID: 1868140384}
+  m_Layer: 12
   m_Name: cookies_6 (8)
   m_TagString: Enemy2
   m_Icon: {fileID: 0}
@@ -7910,7 +8600,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1950346601
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300012, guid: 8872fb409d4214e8481dbbf530da9547, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -7949,6 +8639,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.84, y: 0.84}
   m_EdgeRadius: 0
+--- !u!114 &1868140384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1868140380}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f38745e268a1442f4bb7b7e65dd2bfbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyBullet: {fileID: 123088382281631225, guid: 60abcd7d621ba464bbec458753fa2193,
+    type: 3}
 --- !u!1 &1895947358
 GameObject:
   m_ObjectHideFlags: 0
@@ -7960,7 +8664,8 @@ GameObject:
   - component: {fileID: 1895947359}
   - component: {fileID: 1895947360}
   - component: {fileID: 1895947361}
-  m_Layer: 0
+  - component: {fileID: 1895947362}
+  m_Layer: 12
   m_Name: cookie1 [4]
   m_TagString: Enemy1
   m_Icon: {fileID: 0}
@@ -8016,7 +8721,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1950346601
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 8872fb409d4214e8481dbbf530da9547, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -8055,6 +8760,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.84, y: 0.84}
   m_EdgeRadius: 0
+--- !u!114 &1895947362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1895947358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f38745e268a1442f4bb7b7e65dd2bfbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyBullet: {fileID: 123088382281631225, guid: 60abcd7d621ba464bbec458753fa2193,
+    type: 3}
 --- !u!1 &1898086013
 GameObject:
   m_ObjectHideFlags: 0
@@ -8066,7 +8785,8 @@ GameObject:
   - component: {fileID: 1898086014}
   - component: {fileID: 1898086015}
   - component: {fileID: 1898086016}
-  m_Layer: 0
+  - component: {fileID: 1898086017}
+  m_Layer: 12
   m_Name: cookies_12
   m_TagString: Enemy3
   m_Icon: {fileID: 0}
@@ -8122,7 +8842,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1950346601
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300024, guid: 8872fb409d4214e8481dbbf530da9547, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -8161,6 +8881,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.72, y: 0.83}
   m_EdgeRadius: 0
+--- !u!114 &1898086017
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1898086013}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f38745e268a1442f4bb7b7e65dd2bfbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyBullet: {fileID: 123088382281631225, guid: 60abcd7d621ba464bbec458753fa2193,
+    type: 3}
 --- !u!1 &1929801153
 GameObject:
   m_ObjectHideFlags: 0
@@ -8301,7 +9035,8 @@ GameObject:
   - component: {fileID: 1968048753}
   - component: {fileID: 1968048754}
   - component: {fileID: 1968048755}
-  m_Layer: 0
+  - component: {fileID: 1968048756}
+  m_Layer: 12
   m_Name: cookies_6 (16)
   m_TagString: Enemy2
   m_Icon: {fileID: 0}
@@ -8357,7 +9092,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1950346601
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300012, guid: 8872fb409d4214e8481dbbf530da9547, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -8396,6 +9131,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.84, y: 0.84}
   m_EdgeRadius: 0
+--- !u!114 &1968048756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1968048752}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f38745e268a1442f4bb7b7e65dd2bfbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyBullet: {fileID: 123088382281631225, guid: 60abcd7d621ba464bbec458753fa2193,
+    type: 3}
 --- !u!1 &1971758021
 GameObject:
   m_ObjectHideFlags: 0
@@ -8407,7 +9156,8 @@ GameObject:
   - component: {fileID: 1971758022}
   - component: {fileID: 1971758023}
   - component: {fileID: 1971758024}
-  m_Layer: 0
+  - component: {fileID: 1971758025}
+  m_Layer: 12
   m_Name: cookies_6 (4)
   m_TagString: Enemy2
   m_Icon: {fileID: 0}
@@ -8463,7 +9213,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1950346601
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300012, guid: 8872fb409d4214e8481dbbf530da9547, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -8502,6 +9252,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.84, y: 0.84}
   m_EdgeRadius: 0
+--- !u!114 &1971758025
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1971758021}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f38745e268a1442f4bb7b7e65dd2bfbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyBullet: {fileID: 123088382281631225, guid: 60abcd7d621ba464bbec458753fa2193,
+    type: 3}
 --- !u!1 &2060588670
 GameObject:
   m_ObjectHideFlags: 0
@@ -8570,7 +9334,8 @@ GameObject:
   - component: {fileID: 2102843831}
   - component: {fileID: 2102843832}
   - component: {fileID: 2102843833}
-  m_Layer: 0
+  - component: {fileID: 2102843834}
+  m_Layer: 12
   m_Name: cookies_6 (21)
   m_TagString: Enemy2
   m_Icon: {fileID: 0}
@@ -8626,7 +9391,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1950346601
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300012, guid: 8872fb409d4214e8481dbbf530da9547, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -8665,6 +9430,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.84, y: 0.84}
   m_EdgeRadius: 0
+--- !u!114 &2102843834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2102843830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f38745e268a1442f4bb7b7e65dd2bfbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyBullet: {fileID: 123088382281631225, guid: 60abcd7d621ba464bbec458753fa2193,
+    type: 3}
 --- !u!1 &2103841926
 GameObject:
   m_ObjectHideFlags: 0
@@ -8676,7 +9455,8 @@ GameObject:
   - component: {fileID: 2103841927}
   - component: {fileID: 2103841928}
   - component: {fileID: 2103841929}
-  m_Layer: 0
+  - component: {fileID: 2103841930}
+  m_Layer: 12
   m_Name: cookies_12 (9)
   m_TagString: Enemy3
   m_Icon: {fileID: 0}
@@ -8732,7 +9512,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1950346601
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300024, guid: 8872fb409d4214e8481dbbf530da9547, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -8771,6 +9551,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.72, y: 0.83}
   m_EdgeRadius: 0
+--- !u!114 &2103841930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2103841926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f38745e268a1442f4bb7b7e65dd2bfbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyBullet: {fileID: 123088382281631225, guid: 60abcd7d621ba464bbec458753fa2193,
+    type: 3}
 --- !u!1 &2104557814
 GameObject:
   m_ObjectHideFlags: 0
@@ -8782,7 +9576,8 @@ GameObject:
   - component: {fileID: 2104557815}
   - component: {fileID: 2104557816}
   - component: {fileID: 2104557817}
-  m_Layer: 0
+  - component: {fileID: 2104557818}
+  m_Layer: 12
   m_Name: cookies_6 (1)
   m_TagString: Enemy2
   m_Icon: {fileID: 0}
@@ -8838,7 +9633,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1950346601
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300012, guid: 8872fb409d4214e8481dbbf530da9547, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -8877,6 +9672,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.84, y: 0.84}
   m_EdgeRadius: 0
+--- !u!114 &2104557818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2104557814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f38745e268a1442f4bb7b7e65dd2bfbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyBullet: {fileID: 123088382281631225, guid: 60abcd7d621ba464bbec458753fa2193,
+    type: 3}
 --- !u!1 &2134317270
 GameObject:
   m_ObjectHideFlags: 0
@@ -8888,7 +9697,8 @@ GameObject:
   - component: {fileID: 2134317271}
   - component: {fileID: 2134317272}
   - component: {fileID: 2134317273}
-  m_Layer: 0
+  - component: {fileID: 2134317274}
+  m_Layer: 12
   m_Name: cookies_6 (19)
   m_TagString: Enemy2
   m_Icon: {fileID: 0}
@@ -8944,7 +9754,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1950346601
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300012, guid: 8872fb409d4214e8481dbbf530da9547, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -8983,3 +9793,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.84, y: 0.84}
   m_EdgeRadius: 0
+--- !u!114 &2134317274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2134317270}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f38745e268a1442f4bb7b7e65dd2bfbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyBullet: {fileID: 123088382281631225, guid: 60abcd7d621ba464bbec458753fa2193,
+    type: 3}

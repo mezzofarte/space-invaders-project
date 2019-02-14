@@ -7,7 +7,6 @@ public class Enemy : MonoBehaviour
 {
     public float speed = 3f;
     private bool facingRight = true;
-    public GameController controller;
 
     // Update is called once per frame
     void Update()
@@ -31,10 +30,7 @@ public class Enemy : MonoBehaviour
         else if (col.collider.CompareTag("Bottom"))
         {
             Debug.Log("enemy reached bottom");
-            // if reaches bottom, game over
-            // SceneManager...
-            controller.GameOver();
+            // if reaches bottom, prompt game over
         }
     }
-
 }

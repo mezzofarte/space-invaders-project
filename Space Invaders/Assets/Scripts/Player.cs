@@ -8,7 +8,7 @@ public class Player : MonoBehaviour
     public float speed = 10;
     private Rigidbody2D m_rigidbody;
     public static bool off_screen = true;
-    public GameObject Bullet;
+    public GameObject bullet;
     public static int lives = 3;
 
     // Start is called before the first frame update
@@ -36,7 +36,7 @@ public class Player : MonoBehaviour
         RaycastHit2D hitInfo = Physics2D.Raycast(this.transform.position, Vector2.up);
         Debug.DrawRay(this.transform.position, Vector2.up*9001, Color.green, 0.1f);
     
-        GameObject b = (GameObject)(Instantiate (Bullet, transform.position, Quaternion.identity));
+        GameObject b = (GameObject)(Instantiate (bullet, transform.position, Quaternion.identity));
         Physics2D.IgnoreCollision(b.GetComponent<Collider2D>(), GetComponent<Collider2D>());
         b.GetComponent<Rigidbody2D>().AddForce(transform.up * 1000);
     }
