@@ -48,6 +48,11 @@ public class Player : MonoBehaviour
         m_rigidbody.velocity = new Vector2(movementModifier * speed, currentVelocity.y);
     }
 
+    public int getLives()
+    {
+        return lives;
+    }
+
     void OnCollisionExit2D(Collision2D collision)
     {
         

@@ -20,14 +20,14 @@ public class GameController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (player.lives == 0)
+        if (player.getLives() == 0)
         {
             GameOver();
         }
 
         else if (Input.GetKeyDown(KeyCode.Escape))
         {
-            Debug.Log(player.lives);
+            Debug.Log(player.getLives());
             if (isPaused)
             {
                 ResumeGame();
