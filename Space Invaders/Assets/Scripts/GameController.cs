@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class GameController : MonoBehaviour
 {
     public static bool isPaused = false;
+    public static bool loseState = false;
     public GameObject pauseMenu;
     public GameObject gameOver;
 
@@ -19,7 +20,12 @@ public class GameController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (loseState)
+        {
+            GameOver();
+        }
+
+        else if (Input.GetKeyDown(KeyCode.Escape))
         {
             if (isPaused)
             {
@@ -30,6 +36,12 @@ public class GameController : MonoBehaviour
                 PauseGame();
             }
         }
+    }
+
+    public void GameOver()
+    {
+        gameOver.SetActive(true);
+        Time.timeScale = 0f;
     }
 
     public void ResumeGame()

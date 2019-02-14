@@ -9,6 +9,7 @@ public class Player : MonoBehaviour
     private Rigidbody2D m_rigidbody;
     public static bool off_screen = true;
     public GameObject Bullet;
+    public int lives = 3;
 
     // Start is called before the first frame update
     void Start()
