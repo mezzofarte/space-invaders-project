@@ -32,11 +32,6 @@ public class GameController : MonoBehaviour
             GameWin();
         }
 
-        else if (false)
-        {
-            GameWin();
-        }
-
         else if (Input.GetKeyDown(KeyCode.Escape))
         {
             if (isPaused)

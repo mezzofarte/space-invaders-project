@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
+    int[] ufo = { 100, 150, 200, 250, 300 };
+    
     // tried using collision but didn't work, would delete whole thing, turns out trigger worked
     void OnTriggerEnter2D (Collider2D col) {
         // Debug.Log("collision name = " + col.gameObject.tag);
@@ -32,6 +34,12 @@ public class Bullet : MonoBehaviour
             Destroy(this.gameObject);
             Destroy(col.gameObject);
         }
-        Debug.Log("Score: " + ScoreManager.score);
+        else if (col.gameObject.tag == "UFOCookie"){
+            Player.off_screen = true;
+            ScoreManager.score += ufo[Random.Range(0, ufo.Length)];
+            Destroy(this.gameObject);
+            Destroy(col.gameObject);
+        }
+        // Debug.Log("Score: " + ScoreManager.score);
     }
 }

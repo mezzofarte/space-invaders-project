@@ -17,7 +17,6 @@ public class Enemy : MonoBehaviour
 
     void Update()
     {
-        Debug.Log("enemies: " + lives);
         if (!facingRight){
             this.transform.Translate(Vector3.left * speed * Time.deltaTime);    // Continuously move left
         }
