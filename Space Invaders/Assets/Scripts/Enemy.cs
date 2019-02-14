@@ -30,8 +30,7 @@ public class Enemy : MonoBehaviour
         else if (col.collider.CompareTag("Bottom"))
         {
             Debug.Log("enemy reached bottom");
-            // if reaches bottom, game over
-            // SceneManager...
+            // if reaches bottom, prompt game over
         }
     }
 

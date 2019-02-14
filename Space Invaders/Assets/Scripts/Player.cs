@@ -9,7 +9,7 @@ public class Player : MonoBehaviour
     private Rigidbody2D m_rigidbody;
     public static bool off_screen = true;
     public GameObject Bullet;
-    public int lives = 3;
+    public static int lives = 3;
 
     // Start is called before the first frame update
     void Start()
@@ -22,8 +22,8 @@ public class Player : MonoBehaviour
     void Update()
     {
         Move();
+        // timescale to make sure clicking play/resume
         if (Time.timeScale == 1f && (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Mouse0))){
-            Debug.Log("time");
             if (off_screen == true){
                 Shoot();
             }
