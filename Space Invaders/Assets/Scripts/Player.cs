@@ -14,13 +14,15 @@ public class Player : MonoBehaviour
     void Start()
     {
         m_rigidbody = this.GetComponent<Rigidbody2D>();
+        off_screen = true;
     }
 
     // Update is called once per frame
     void Update()
     {
         Move();
-        if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Mouse0)){
+        if (Time.timeScale == 1f && (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Mouse0))){
+            Debug.Log("time");
             if (off_screen == true){
                 Shoot();
             }

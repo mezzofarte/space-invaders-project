@@ -35,8 +35,8 @@ public class GameController : MonoBehaviour
     public void ResumeGame()
     {
         pauseMenu.SetActive(false);
-        Time.timeScale = 1f;
         isPaused = false;
+        Time.timeScale = 1f;
     }
 
     public void RestartGame()
@@ -47,8 +47,8 @@ public class GameController : MonoBehaviour
     void PauseGame()
     {
         pauseMenu.SetActive(true);
-        Time.timeScale = 0f;
         isPaused = true;
+        Time.timeScale = 0f;
     }
 
     public void EndGame()
