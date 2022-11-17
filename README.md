@@ -1,7 +1,7 @@
 # space-invaders-project2
 A space invaders clone using Unity Game Engine and C#.
 
-![game screenshot](https://raw.githubusercontent.com/mezzofarte/space-invaders-project/master/space-invaders/Assets/image.png)
+![game screenshot](https://raw.githubusercontent.com/mezzofarte/space-invaders-project2/master/space-invaders/Assets/screenshot.png)
 
 Contributors:
 Lindsey Duong, Adrienne Caparaz
